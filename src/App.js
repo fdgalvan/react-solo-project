@@ -4,6 +4,7 @@ import './App.css';
 import MovieList from './components/MovieList';
 import MovieListHeading from './components/MovieListHeading';
 import SearchBox from './components/SearchBox';
+import AddFavourites from './components/AddFavourites';
 
 const App = () => {
 	const [movies, setMovies] = useState([]);
@@ -27,7 +28,7 @@ const App = () => {
 	return (
 		<div className='container-fluid movie-app'>
 			<div className='row'>
-				<MovieListHeading heading='Movies' />
+				<MovieListHeading heading="Chewie's Movies" />
 				<SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
 			</div>
 			<div className='row d-flex align-items-center mt-4 mb-4'>
