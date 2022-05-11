@@ -15,12 +15,12 @@ body {
 
 .image-container {
   position: relative;
-  transition: transform 0.2s;
+  transition: transform 0.7s;
 }
 
 .image-container:hover{
-  cursor: crosshair;
-  transform: scale(1.1);
+  cursor: pointer;
+  transform: scale(0.9);
 }
 
 .image-container:hover .overlay{
