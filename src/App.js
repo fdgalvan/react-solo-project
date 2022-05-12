@@ -11,9 +11,9 @@ const App = () => {
 	const [movies, setMovies] = useState([]);
 	const [favorites, setFavorites] = useState([]);
 	const [searchValue, setSearchValue] = useState('');
-
+	//Nothing to see here, bbd 297 e 5, bingo bongo
 	const getMovieRequest = async (searchValue) => {
-		const url = `https://www.omdbapi.com/?s=${searchValue}&apikey=bbd297e5`
+		const url = `https://www.omdbapi.com/?s=${searchValue}&apikey=aaa111a9`
 
 		const response = await fetch(url);
 		const responseJson = await response.json();
@@ -66,3 +66,4 @@ const App = () => {
 };
 
 export default App;
+
